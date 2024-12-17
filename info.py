@@ -72,17 +72,17 @@ VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c
 VERIFY_URL = environ.get('VERIFY_URL', 'Modijiurl.com')
 VERIFY_API = (environ.get('VERIFY_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "48000"))
 VERIFY_URL2 = environ.get('VERIFY_URL2', 'Modijiurl.com')
 VERIFY_API2 = (environ.get('VERIFY_API2', 'fe23807ec922f660e8b6040140cf08da97c23015'))
  
-THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
+THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "48000"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'Modijiurl.com')
 VERIFY_API3 = (environ.get('VERIFY_API3', 'fe23807ec922f660e8b6040140cf08da97c23015'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TamilRockerz_TR')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/TamilRockerz_TR')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/TamilRockerz_TR')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_TR/12')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_to_Download_TR/12')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_to_Download_TR/12')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), True)
