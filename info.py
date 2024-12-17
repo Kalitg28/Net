@@ -26,7 +26,7 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
-PICS = (environ.get('PICS', 'https://telegra.ph/file/0ed351c8605c23e8cae79.jpg https://telegra.ph/file/6524270c008b60f81f30a.jpg https://telegra.ph/file/848ed57090fd5111ce64d.jpg https://telegra.ph/file/5fe959d96fcc33d1b9dc9.jpg https://telegra.ph/file/ec5f5a031b7826e28360c.jpg https://telegra.ph/file/aa4b77441bb41cfce12d7.jpg https://telegra.ph/file/00ed60e2c89d564d850ef.jpg https://telegra.ph/file/a5d518f6020976bc45264.jpg https://telegra.ph/file/650191ad1f813ca8f41cb.jpg https://telegra.ph/file/c6042704a1bc0a2b52996.jpg https://telegra.ph/file/9d68211fa9dcb208200be.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/8El.jpg ')).split()
 WELCOME_VID = environ.get("WELCOME_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 
 #premium imag
@@ -57,7 +57,7 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kalitg01:kalitg01@cluster1.sd0p4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kalitg')
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'Modijiurl.com'))
@@ -67,7 +67,7 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
 
 #verify site api and url
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), True)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 VERIFY_URL = environ.get('VERIFY_URL', 'Modijiurl.com')
 VERIFY_API = (environ.get('VERIFY_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
@@ -87,7 +87,7 @@ TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/TamilRockerz_TR')
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), True)
 
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001998895377').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001981325348').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
@@ -96,7 +96,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TamilRockerz_TR')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001981325348))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002364925094)) # Group verify stats 
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1001998895377)) # movies request channel, else log channel
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1001981325348)) # movies request channel, else log channel
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_Request_TR')
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
