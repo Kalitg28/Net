@@ -63,7 +63,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kalitg')
 STREAM_SITE = (environ.get('STREAM_SITE', 'Modijiurl.com'))
 STREAM_API = (environ.get('STREAM_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/TamilRockerz_TR/150'))
-STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
+STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), True)
 
 
 #verify site api and url
