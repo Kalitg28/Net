@@ -60,8 +60,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kalitg')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'cuty.io'))
-STREAM_API = (environ.get('STREAM_API', 'a99b158cd9be2c47bf36ca6e859445ca8e2556e0'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'Modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_TR/13'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), True)
 
@@ -69,16 +69,16 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), True)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'cuty.io')
-VERIFY_API = (environ.get('VERIFY_API', 'a99b158cd9be2c47bf36ca6e859445ca8e2556e0'))
+VERIFY_URL = environ.get('VERIFY_URL', 'Modijiurl.com')
+VERIFY_API = (environ.get('VERIFY_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "48000"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'cuty.io')
-VERIFY_API2 = (environ.get('VERIFY_API2', 'a99b158cd9be2c47bf36ca6e859445ca8e2556e0'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'Modijiurl.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', 'fe23807ec922f660e8b6040140cf08da97c23015'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "48000"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'cuty.io')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'a99b158cd9be2c47bf36ca6e859445ca8e2556e0'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'Modijiurl.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', 'fe23807ec922f660e8b6040140cf08da97c23015'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_TR/13')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_to_Download_TR/13')
