@@ -62,7 +62,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kalitg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'Modijiurl.com'))
 STREAM_API = (environ.get('STREAM_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
-STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_TR/13'))
+STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_TR/12'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), True)
 
 
@@ -80,9 +80,9 @@ THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "48000"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'Modijiurl.com')
 VERIFY_API3 = (environ.get('VERIFY_API3', 'fe23807ec922f660e8b6040140cf08da97c23015'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_TR/13')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_to_Download_TR/13')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_to_Download_TR/13')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_TR/12')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_to_Download_TR/12')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_to_Download_TR/12')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), True)
