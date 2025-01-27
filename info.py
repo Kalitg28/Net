@@ -67,7 +67,7 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
 
 #verify site api and url
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 VERIFY_URL = environ.get('VERIFY_URL', 'Modijiurl.com')
 VERIFY_API = (environ.get('VERIFY_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
