@@ -215,7 +215,9 @@ Money heist S0E01
 ★ Mᴇssᴀɢᴇ <code>{}</code>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}</b>"""
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}
+
+➥ 𝗝𝗼𝗶𝗻 ➼「<a href="https://t.me/Indian_MV">𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕</a>」</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
