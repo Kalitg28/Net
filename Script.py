@@ -3,7 +3,7 @@ class script(object):
 <b><blockquote>Iᴍ Tʜᴇ Mᴏsᴛ Aᴅᴠᴀɴᴄᴇ Aɪ Pᴏᴡᴇʀᴅ Bᴏᴛ.🥰
 Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Aɴʏ Mᴏᴠɪᴇꜱ & Sᴇʀɪᴇꜱ Nᴀᴍᴇ Aɴᴅ Sᴇᴇ Mʏ Pᴏᴡᴇʀ.</b></blockquote>
 
-<b><spoiler>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href=https://t.me/Indian_MV>𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕</b></spoiler></a>"""
+<b><blockquote>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href=https://t.me/Indian_MV>𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕</b></blockquote></a>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
@@ -217,7 +217,7 @@ Money heist S0E01
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}
 
-➥ 𝗝𝗼𝗶𝗻 ➼「<a href="https://t.me/Indian_MV">𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕</a>」</b>"""
+<blockquote>🌹 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 ›› <a href="https://t.me/Indian_MV">🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 🇮🇳</a></blockquote></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
