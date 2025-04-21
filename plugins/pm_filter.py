@@ -169,11 +169,7 @@ async def give_filter(bot, message):
         if owner:
             await message.reply_text(text=f"ʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ.\n@Indian_MV_Admin_Bot")
         else:
-            await message.reply_text(text=f"ᴛʜɪs ɢʀᴏᴜᴘ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ\n\n彡[ Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ 𝟸𝟺×𝟽 ]彡
-
-Type Movie Name and Get Your Movies In File Format 👇👇
-
-GROUP : https://t.me/Movies_Request_MV")
+            await message.reply_text(text=f"ᴛʜɪs ɢʀᴏᴜᴘ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ\n\n彡[ Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ 𝟸𝟺×𝟽 ]彡\n\n\n\nType Movie Name and Get Your Movies In File Format 👇👇\n\n\n\nGROUP : https://t.me/Movies_Request_MV")
         
 
 
