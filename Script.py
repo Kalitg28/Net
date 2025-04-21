@@ -219,13 +219,12 @@ Money heist S0E01
 
 <blockquote>🌹 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 ›› <a href="https://t.me/Indian_MV">🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 🇮🇳</a></blockquote></b>"""
 
-    IMDB_TEMPLATE_TXT = """
-<b>
-🏷 Title: <a href={url}>{title}</a>
+    IMDB_TEMPLATE_TXT = """<b><blockquote>🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
+🔊 Audio : {languages}
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
-📤 Upload : @Indian_MV</b> """
+📥 Upload : @Indian_MV</blockquote></b>"""
     
     CHANNELS = """
 <b>ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ғᴏʀ ʀᴇᴘᴏ ᴜᴘᴅᴀᴛᴇs </b>"""
