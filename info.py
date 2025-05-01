@@ -50,9 +50,9 @@ OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Indian_MV_Admin_Bot") # widout
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002327045567').split()]
 # post channel auto post new movie
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002364289630').split(','))))
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '0'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002327045567'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
-NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
+NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kalitg01:kalitg01@cluster1.sd0p4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
@@ -60,29 +60,29 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kalitg')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'Modijiurl.com'))
-STREAM_API = (environ.get('STREAM_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
-STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_TR/12'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'Shortxlinks.com'))
+STREAM_API = (environ.get('STREAM_API', '9a0544addc47c0757f288817afe08c785c0e80d1'))
+STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Download_MVS/4'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
 
 #verify site api and url
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'Modijiurl.com')
-VERIFY_API = (environ.get('VERIFY_API', 'fe23807ec922f660e8b6040140cf08da97c23015'))
+VERIFY_URL = environ.get('VERIFY_URL', 'Shortxlinks.com')
+VERIFY_API = (environ.get('VERIFY_API', '9a0544addc47c0757f288817afe08c785c0e80d1'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "48000"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'Modijiurl.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', 'fe23807ec922f660e8b6040140cf08da97c23015'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'Shortxlinks.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', '9a0544addc47c0757f288817afe08c785c0e80d1'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "48000"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'Modijiurl.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'fe23807ec922f660e8b6040140cf08da97c23015'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'Shortxlinks.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', '9a0544addc47c0757f288817afe08c785c0e80d1'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_TR/12')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_to_Download_TR/12')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_to_Download_TR/12')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Download_MVS/4')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_To_Download_MVS/4')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_To_Download_MVS/4')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), True)
