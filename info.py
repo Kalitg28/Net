@@ -60,29 +60,29 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kalitg')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'Shortxlinks.com'))
-STREAM_API = (environ.get('STREAM_API', '9a0544addc47c0757f288817afe08c785c0e80d1'))
-STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Download_MVS/4'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'OmegaLinks.in'))
+STREAM_API = (environ.get('STREAM_API', 'b10837a4b38b14476d8fb64e1a02d1610160c9ce'))
+STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Download_MVS/6'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
 
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'Shortxlinks.com')
-VERIFY_API = (environ.get('VERIFY_API', '9a0544addc47c0757f288817afe08c785c0e80d1'))
+VERIFY_URL = environ.get('VERIFY_URL', 'OmegaLinks.in')
+VERIFY_API = (environ.get('VERIFY_API', 'b10837a4b38b14476d8fb64e1a02d1610160c9ce'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "48000"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'Shortxlinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', '9a0544addc47c0757f288817afe08c785c0e80d1'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'OmegaLinks.in')
+VERIFY_API2 = (environ.get('VERIFY_API2', 'b10837a4b38b14476d8fb64e1a02d1610160c9ce'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "48000"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'Shortxlinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', '9a0544addc47c0757f288817afe08c785c0e80d1'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'OmegaLinks.in')
+VERIFY_API3 = (environ.get('VERIFY_API3', 'b10837a4b38b14476d8fb64e1a02d1610160c9ce'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Download_MVS/4')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_To_Download_MVS/4')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_To_Download_MVS/4')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Download_MVS/6')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_To_Download_MVS/6')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_To_Download_MVS/6')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), True)
